@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prianne Balcacer - Portfolio</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+  
+
+
+   body {
+      margin: 0;
+      font-family: 'Raleway', sans-serif;
+      background-color: #EAEFEF;
+      color: #333446;
+      scroll-behavior: smooth;
+    }
+
+    /* Navbar */
+    .w3-top {
+      background-color: #333446;
+    }
+
+    .w3-bar-item {
+      color: #B8CFCE;
+    }
+
+    .w3-bar-item:hover {
+      color: #7F8CAA;
+    }
+
+    /* Hero Section */
+    #home {
+      background-color: #7F8CAA;
+      color: white;
+      padding: 80px 20px;
+    }
+
+    #home h1 {
+      font-size: 3em;
+    }
+
+    #home p {
+      font-size: 1.2em;
+    }
+
+    /* Projects Section */
+    #projects {
+      background-color: #EAEFEF;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    #projects h2 {
+      font-size: 2.5em;
+      color: #333446;
+      margin-bottom: 40px;
+    }
+
+    .projects-container {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+    }
+
+    .project-item {
+      width: 350px;
+      text-align: center;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .project-img:hover {
+      transform: scale(1.05);
+    }
+
+    .project-item h3 {
+      font-size: 1.8em;
+      margin-top: 20px;
+      color: #333446;
+    }
+
+    .project-item p {
+      font-size: 1.2em;
+      color: #333446;
+      line-height: 1.6;
+      margin-top: 10px;
+    }
+     /* About Section */
+    #about {
+      position: relative;
+      background-color: #B8CFCE; /* Light blue for background */
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    #about img {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 250px; /* Larger image */
+      height: 250px; /* Square shape */
+      border-radius: 15px; /* Rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #about h2 {
+      font-size: 2.5em;
+      color: #333446;
+      margin-top: 270px; /* Adjust the content down */
+    }
+
+    #about p {
+      font-size: 1.2em;
+      color: #333446;
+      line-height: 1.6;
+      margin-top: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top w3-bar w3-white w3-padding w3-card">
+  <a href="#home" class="w3-bar-item w3-button">Home</a>
+</div>
+
+<!-- Hero Section -->
+<header class="w3-container w3-center w3-padding-64" id="home">
+  <h1 class="w3-xxxlarge">Prianne Balcacer</h1>
+  <p>Communication Design Graduate</p>
+</header>
+
+<!-- About Section -->
+<section id="about">
+  <img src="images/Picture_of_me.png" alt="Prianne Balcacer" class="profile-img"> <!-- Picture above About Me Section -->
+  <h2>About Me</h2>
+  <p>
+    I'm a communication designer passionate about visual storytelling, branding, and human-centered design. I'm looking for creative opportunities where I can grow and collaborate with others.
+  </p>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <h2>Selected Projects</h2>
+  <div class="projects-container">
+    <!-- Project 1 Preview -->
+    <div class="project-item">
+      <a href="my-pet-peeve-exhibition.html">
+        <h3>My Pet Peeve Exhibition</h3>
+        <img src="images/MyPetPeeveExibition-01.png" alt="My Pet Peeve Exhibition - Image 1" class="project-img">
+        <p>Short description of the "My Pet Peeve Exhibition" project.</p>
+      </a>
+    </div>
+
+    <!-- Project 2 Preview -->
+    <div class="project-item">
+      <a href="they-see-they-think-they-communicate.html">
+        <h3>They See, They Think, They Communicate</h3>
+        <img src="images/TheySeeTheyThinkTheyCommunicate1.png" alt="They See, They Think, They Communicate - Image 1" class="project-img">
+        <p>Short description of the "They See, They Think, They Communicate" project.</p>
+      </a>
+    </div>
+
+    <!-- Project 3 Preview -->
+    <div class="project-item">
+      <a href="women-x-nature.html">
+        <h3>Women x Nature</h3>
+        <img src="images/womenxnature.png" alt="Women x Nature" class="project-img">
+        <p>Short description of the "Women x Nature" project.</p>
+      </a>
+    </div>
+  </div>
+  
+</section>
+
+</body>
+</html>
